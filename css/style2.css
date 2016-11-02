@@ -1,0 +1,59 @@
+/*
+Error: Invalid CSS after "220px  left": expected expression (e.g. 1px, bold), was ": 0  bottom: 0 ..."
+        on line 73 of style2.css
+
+68: 
+69: .search {
+70:   text-align: center
+71:   margin: auto
+72:   position: absolute
+73:   top: 220px  left: 0  bottom: 0  right: 0
+74: }
+75: 
+76: .search:hover {
+77:   border-color: blue
+78: }
+
+Backtrace:
+style2.css:73
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/lexer.rb:229:in `expected!'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/parser.rb:738:in `assert_done'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/parser.rb:76:in `parse'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/parser.rb:240:in `parse'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script.rb:27:in `parse'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:1151:in `parse_script'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:721:in `parse_property'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:692:in `parse_property_or_rule'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:658:in `parse_line'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:536:in `build_tree'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:555:in `block in append_children'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:554:in `each'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:554:in `append_children'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:545:in `block in build_tree'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:538:in `each'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:538:in `build_tree'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:555:in `block in append_children'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:554:in `each'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:554:in `append_children'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:409:in `_to_tree'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:294:in `watch'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin.rb:109:in `method_missing'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
+/home/dan/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'
+/home/dan/.rbenv/versions/2.3.1/bin/sass:23:in `load'
+/home/dan/.rbenv/versions/2.3.1/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"220px  left\": expected expression (e.g. 1px, bold), was \": 0  bottom: 0 ...\"\A         on line 73 of style2.css\A \A 68: \A 69: .search {\A 70:   text-align: center\A 71:   margin: auto\A 72:   position: absolute\A 73:   top: 220px  left: 0  bottom: 0  right: 0\A 74: }\A 75: \A 76: .search:hover {\A 77:   border-color: blue\A 78: }"; }
